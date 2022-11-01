@@ -1,4 +1,35 @@
-h1 {
-    font-size: 50px;
-    color: rgb(173, 29, 96);
+body {
+    margin: 0;
+    background-color: rgb(42, 40, 51);
 }
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 30px 15%;
+    color: rgb(209, 211, 212);
+    font-size: 23px;
+ }
+
+.hero {
+    display: flex;
+    height: 65vh;
+    margin: 0px;
+    padding: 100px 0px 0px 150px;
+    background-color: rgba(57, 55, 68, 0.904);
+}
+
+ .ea {
+    font-size: 75px;
+    color: rgb(209, 211, 212);
+ }
+
+.ea span {
+    font-size: 35px;
+    color: rgba(192, 190, 190, 0.863);
+ }
+
+ .designer {
+    margin: -30px 0px 0px 60px;
+ }
