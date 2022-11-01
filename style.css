@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap');
+
 body {
     margin: 0;
     background-color: rgb(42, 40, 51);
@@ -10,26 +13,44 @@ body {
     padding: 30px 15%;
     color: rgb(209, 211, 212);
     font-size: 23px;
+    font-family: 'Trispace', sans-serif;
  }
 
 .hero {
     display: flex;
     height: 65vh;
     margin: 0px;
-    padding: 100px 0px 0px 150px;
+    padding: 130px 0px 0px 170px;
     background-color: rgba(57, 55, 68, 0.904);
 }
 
  .ea {
-    font-size: 75px;
+    font-size: 60px;
+    font-family: 'Archivo Black', sans-serif;
     color: rgb(209, 211, 212);
  }
 
 .ea span {
-    font-size: 35px;
+    font-size: 30px;
+    font-family: 'Trispace', sans-serif;
     color: rgba(192, 190, 190, 0.863);
  }
 
  .designer {
-    margin: -30px 0px 0px 60px;
+    margin: -30px 0px 0px 0px;
  }
+
+ .title {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgb(209, 211, 212);
+    text-align: center;
+    font-size: 40px;
+    margin: 40px;
+    padding: 20px
+ }
+  .p1, .p2, .p3, .p4 {
+    background-color: rgba(57, 55, 68, 0.904);
+    color: rgb(209, 211, 212);
+    margin: 0 0 30px 0;
+    padding: 50px;
+  }
