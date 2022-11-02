@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="index.js"></script>
   </head>
   <body>
     <div class="nav">
       <p>Home</p> 
-      <p>About</p>
+      <p>Resume</p>
       <p>Projects</p>
       <p>Skills</p>
       <p>Contact</p>
@@ -24,35 +25,61 @@
     </div>
     <div class="skills">
       <h1 class="title">Skills</h1>
-      <div class="skills-icons">
-        <img src="images\react.png" class="icon"><p class="skill-caption">React.js</p>
-        <img src="images\python.png" class="icon"><p class="skill-caption">Python</p>
-        <img src="images\javascript.png" class="icon"><p class="skill-caption">Javascript</p>
-        <img src="images\github.png" class="icon"><p class="skill-caption">GitHub</p>
-        <img src="images\mongodb.png" class="icondb"><p class="skill-caption">MongoDB</p>
-        <img src="images\figma.png" class="icon"><p class="skill-caption">Figma</p>
-        <img src="images\html.png" class="icon"><p class="skill-caption">HTML</p>
-        <img src="images\css.png" class="icon"><p class="skill-caption">CSS</p>
+      <div class="skills-icons" data-aos="fade-up">
+      <div><img src="images\react.png" class="icon"><p class="skill-caption">React.js</p></div>
+      <div><img src="images\python.png" class="icon"><p class="skill-caption">Python</p></div>
+      <div><img src="images\javascript.png" class="icon"><p class="skill-caption">Javascript</p></div>
+      <div><img src="images\github.png" class="icon"><p class="skill-caption">GitHub</p></div>
+      <div><img src="images\mongodb.png" class="icondb"><p class="skill-caption">MongoDB</p></div>
+      <div><img src="images\figma.png" class="icon"><p class="skill-caption">Figma</p></div>
+      <div><img src="images\html.png" class="icon"><p class="skill-caption">HTML</p></div>
+      <div><img src="images\css.png" class="icon"><p class="skill-caption">CSS</p></div>
+      <div><img src="images\django.png" class="icon"><p class="skill-caption">Django</p></div>
       </div>
     </div>
     <div class="projects">
       <h1 class="title">Projects</h1>
-      <div class="p1">
-        <h1>Frogger<br><span>Tes test test tes tes tes tydsgfiy</span></h1>
+      <div class="p1" data-aos="fade-up">
+        <h1>Frogger<br><span>Responsive browser-based rendition of the 1981 arcade game Frogger. 
+        Implemented a timer, conditionals, functions, and designed illustrations to create an addicting and fun player-driven experience.</span></h1>
         <img src="images\frogger.png" class="project-img">
       </div>
-      <div class="p2">
-        <h1>KIBI <br><span>Tes test test tes tes tes tydsgfiy</span></h1>
-        <img src="images\Home.png" class="project-img">
+      <div class="p2" data-aos="fade-up">
+        <h1>KIBI <br><span>Reverse-engineered a responsive, full-stack eCommerce application that features the 7 RESTful routes and a direct user flow in a team of 3 engineers. </span></h1>
+        <img src="images\Home1.png" class="project-img">
       </div>
-      <div class="p3">
-        <h1>Val.Halla <br><span>Tes test test tes tes tes tydsgfiy</span></h1>
+      <div class="p3" data-aos="fade-up">
+        <h1>Val.Halla <br><span>Full-stack(MERN) statistical application tracker for the game VALORANT.  Players can search through a third-party Riot Games API to search usernames to find player statistics.  Collaborated in a one week sprint in a team of four software engineers. </span></h1>
         <img src="images\val.hal.png" class="project-img">
       </div>
-      <div class="p4">
-        <h1>Pane Blog <br><span>Tes test test tes tes tes tydsgfiy</span></h1>
+      <div class="p4" data-aos="fade-up">
+        <h1>Pane Blog <br><span>Full Stack MERN blog posting application. Utilizes user authorization to create accounts, post, view, and delete a users own blog posts.</span></h1>
         <img src="images\pane.png" class="project-img">
       </div>
     </div>
+    <div class="contact">
+      <h1 class="title">Contact</h1>
+      <div class="contact-content" data-aos="fade-up">
+        <div class="contact-top">
+          <img src="images\env.png" class="env">
+          <div class="form">
+            <form action="https://formsubmit.co/estrellaaalvarez@yahoo.com" method="POST">
+              <input type="text" name="name" placeholder="Full Name" required>
+              <input type="email" name="email" placeholder="Email Address" required><br>
+              <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea><br>
+              <button type="submit">Email Me</button>
+         </form>
+          </div>
+        </div>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/estrellalvarez/" target="_blank"><img src="images\linkedin.png"></a>
+          <a href="https://github.com/estrellaalvarez" target="_blank"><img src="images\github.png"></a>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
