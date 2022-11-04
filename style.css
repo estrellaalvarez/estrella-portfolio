@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(42, 40, 51);
+    background-color: #3a335a;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
@@ -19,8 +19,8 @@ body {
     position: fixed;
     width: 80vw;
     height: 40px;
-        /* From https://css.glass */
-    background: rgba(42, 40, 51, 0.7);
+    /* From https://css.glass */
+    background: #3F3B6Ca1;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.9px);
@@ -33,21 +33,26 @@ body {
     height: 80vh;
     margin: 0px;
     padding: 130px 0px 0px 170px;
-    background-color: rgba(57, 55, 68, 0.904);
+    background-color: #30273b;
     align-items: center;
 }
 
 .ea {
     font-size: 60px;
     font-family: 'Archivo Black', sans-serif;
-    color: rgb(209, 211, 212);
+    color: rgb(223, 224, 224);
     margin-top: -20px;
 }
 
 .ea span {
     font-size: 30px;
     font-family: 'Trispace', sans-serif;
-    color: rgba(192, 190, 190, 0.863);
+    color: rgba(202, 202, 202, 0.952);
+    padding-bottom: 14px;
+}
+
+#underline {
+    border-bottom: 4px solid #A3C7D6;
 }
 
 .designer {
@@ -63,7 +68,7 @@ body {
     padding: 20px
 }
 .p1, .p2, .p3, .p4 {
-    background-color: rgba(57, 55, 68, 0.904);
+    background-color: #30273b;
     color: rgb(209, 211, 212);
     margin: 0 0 30px 0;
     padding: 100px;
@@ -153,10 +158,13 @@ button {
     margin-top: 20px;
     font-size: 18px;
     font-family: 'Trispace', sans-serif;
-    background-color: rgb(240, 36, 148);
+    background-color: #9F73AB;
     color: aliceblue;
+    cursor: pointer;
 }
-
+button:hover {
+    background-color: #b68ac2;
+}
 .env {
     width: 74vh;
 }
@@ -167,7 +175,7 @@ a {
 }
 
 a:hover {
-    color: rgb(153, 72, 228);
+    color: #9F73AB;
 }
 
 .external {
@@ -191,6 +199,13 @@ a:hover {
     padding: 5px;
 }
 #git {
-    border-bottom: 4px solid rgb(169, 111, 216);
+    border-bottom: 4px solid #A3C7D6;
     padding: 4px;
+}
+#gi {
+    transform: translate(-230%);
+}
+
+#cont {
+    width: 110px;
 }
